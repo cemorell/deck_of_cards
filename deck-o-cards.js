@@ -10,6 +10,9 @@ function deck_o_cards() {
   // Make 52 card objects and store them in the "cards" array
   // Hint: use 2 for loops
 
+  for (var i = suits.length - 1; i >= 0; i++) {
+    Return suits[i];
+  }
 
   // 2. Shuffle the cards
   // Hint: shuffle function is already defined below
@@ -24,7 +27,7 @@ function deck_o_cards() {
 
 }
 
-
+deck_o_cards();
 
 // Fisher-Yates Shuffle
 // http://stackoverflow.com/a/6274398
